@@ -34,7 +34,7 @@ namespace SeleniumActions
 
         }
 
-
+        //enter value in text box
         public void SendKeys(By by, String text)
         {
             FindEle(by).SendKeys(text);
